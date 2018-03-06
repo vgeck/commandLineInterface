@@ -4,6 +4,7 @@
 
 __all__ = ["MenuEntry"]
 
+
 class MenuEntry(object):
     """
     Simple menu object with key, description and callback function
@@ -49,7 +50,7 @@ class MenuEntry(object):
         Retruns
         
         """
-        return "[ {:2} ] - {}".format(self.key,self.description)        
+        return "[ {:2} ] - {}".format(self.key, self.description)
         
         
 if __name__ == "__main__":

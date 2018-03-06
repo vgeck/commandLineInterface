@@ -6,18 +6,18 @@ Examples:
 List of modules
 """
 
-import baseObjects
-import menu
-import menuEntry
+import cli.base_objects as baseObjects
+import cli.menu as menu
+import cli.menu_entry as menuEntry
 
 
-from baseObjects import *
-from menu import *
-from menuEntry import *
+from cli.base_objects import *
+from cli.menu import *
+from cli.menu_entry import *
 
-__all__ = [ baseObjects.__all__,
-            menu.__all__,
-            menuEntry.__all__
+__all__ = [baseObjects.__all__,
+           menu.__all__,
+           menuEntry.__all__
           ]
 
 
